@@ -1,5 +1,4 @@
 import React from "react";
-import nino from "../assets/images/nino.png";
 
 const Attendance = () => {
   return (

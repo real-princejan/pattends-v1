@@ -7,8 +7,8 @@ const Sidebar = () => {
   const [selectedMenu, setSelectedMenu] = useState(0); // Initialize with the first menu item selected
   const Menus = [
     { Link: "/", title: "Dashboard", src: "Dashboard", gap: true },
-    { Link: "/teacher", title: "Teachers", src: "Show-User" },
-    { Link: "/student", title: "Students", src: "Add-User" },
+    { Link: "/teacher", title: "Teachers", src: "Teacher" },
+    { Link: "/student", title: "Students", src: "Show-User" },
     { Link: "/attendance", title: "Attendance", src: "Attendance", gap: true },
     { Link: "/profile", title: "Profile", src: "Settings" },
     { Link: "/login", title: "Sign Out", src: "Logout" },
